@@ -731,7 +731,7 @@ h3{
         grid-template-columns: 1fr;
     }
     .giphy-embed img{
-        bottom: -19px;
+        bottom: -1px;
         right: 70px;
         width: 29%;
         height: 86px;
