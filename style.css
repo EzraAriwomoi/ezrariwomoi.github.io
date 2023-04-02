@@ -847,15 +847,15 @@ h3{
         top: 17%;
         left: -109px;
         transform: translateY(-50%);
-        font-size: 20px;
+        font-size: 14px;
         color: #bbb;
     }
     .phoneicon{
         position: absolute;
-        top: 30%;
+        top: 29.6%;
         left: 15px;
         transform: translateY(-50%);
-        font-size: 20px;
+        font-size: 14px;
         color: #bbb;
     }
     .subjecticon{
@@ -863,7 +863,7 @@ h3{
         top: 41%;
         left: -109px;
         transform: translateY(-50%);
-        font-size: 20px;
+        font-size: 14px;
         color: #bbb;
     }
     
