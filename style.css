@@ -427,12 +427,12 @@ h3{
 	flex-direction: column;
 	padding: 0 4rem;
 	text-align: center;
-	font-size: 18px;
+	font-size: 15px;
 	transition: height 1.6s;
 }
 .layer h3{
     color: var(--white-color);
-	font-weight: 600;
+	font-weight: 500;
 	margin-bottom: 10px;
 }
 .Work:hover img{
