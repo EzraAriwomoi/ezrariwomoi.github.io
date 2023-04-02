@@ -480,7 +480,16 @@ h3{
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.contact form .input-box input,
+.contact form .input-box input{
+        width: 100%;
+        padding: 16px 42px;
+        font-size: 1.6rem;
+        color: var(--text-color);
+        background: var(--white-color);
+        border-radius: 34px;
+        margin: .7rem 0;
+        box-shadow: 0 .1rem .2rem var(--shadow-color);
+}
 .contact form textarea{
     width: 100%;
     padding: 1.5rem;
@@ -500,6 +509,40 @@ h3{
 .contact form .btn{
     margin-top: 2rem;
     cursor: pointer;
+}
+
+/*contact icons*/
+.nameicon{
+    position: absolute;
+    top: 7%;
+    left: 15px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #bbb;
+}
+.emailicon{
+    position: absolute;
+    top: 7%;
+    right: 301px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #bbb;
+}
+.phoneicon{
+    position: absolute;
+    top: 21%;
+    left: 15px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #bbb;
+}
+.subjecticon{
+    position: absolute;
+    top: 21%;
+    right: 301px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #bbb;
 }
 
 /*GIF*/
@@ -578,6 +621,22 @@ h3{
     .footer{
         padding: 2rem 3%;
     }
+    .emailicon{
+        position: absolute;
+        top: 7%;
+        right: 295px;
+        transform: translateY(-50%);
+        font-size: 20px;
+        color: #bbb;
+    }
+    .subjecticon{
+        position: absolute;
+        top: 21%;
+        right: 295px;
+        transform: translateY(-50%);
+        font-size: 20px;
+        color: #bbb;
+    }
     .giphy-embed img{
         bottom: 0;
         right: 64px;
@@ -588,7 +647,9 @@ h3{
 }
 
 @media (max-width: 768px){
-   
+    #menu-icon{
+        display: block;
+    }
 
     .navbar{
         position: absolute;
@@ -710,10 +771,26 @@ h3{
         margin-bottom: 3rem;
     }
     .service .btn{
-        margin-bottom: -158rem;
+        margin-bottom: -129rem;
     }
     .container .Work{
         grid-template-columns: repeat(2, 1fr);
+    }
+    .emailicon{
+        position: absolute;
+        top: 7%;
+        right: 254px;
+        transform: translateY(-50%);
+        font-size: 20px;
+        color: #bbb;
+    }
+    .subjecticon{
+        position: absolute;
+        top: 21%;
+        right: 254px;
+        transform: translateY(-50%);
+        font-size: 20px;
+        color: #bbb;
     }
     .giphy-embed img{
         bottom: 0;
@@ -727,6 +804,22 @@ h3{
 @media (max-width: 617px){
     .container .Work{
         grid-template-columns: 1fr;
+    }
+    .emailicon{
+        position: absolute;
+        top: 7%;
+        right: 185px;
+        transform: translateY(-50%);
+        font-size: 20px;
+        color: #bbb;
+    }
+    .subjecticon{
+        position: absolute;
+        top: 21%;
+        right: 185px;
+        transform: translateY(-50%);
+        font-size: 20px;
+        color: #bbb;
     }
     .giphy-embed img{
         bottom: -1px;
@@ -774,7 +867,7 @@ h3{
     }
     .footer p{
         text-align: center;
-        margin-top: 1rem;
+        margin-top: 2rem;
     }
     
 }
