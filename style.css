@@ -844,8 +844,8 @@ h3{
     }
     .emailicon{
         position: absolute;
-        top: 18%;
-        left: -159px;
+        top: 17%;
+        left: -109px;
         transform: translateY(-50%);
         font-size: 20px;
         color: #bbb;
@@ -860,8 +860,8 @@ h3{
     }
     .subjecticon{
         position: absolute;
-        top: 42%;
-        left: -159px;
+        top: 41%;
+        left: -109px;
         transform: translateY(-50%);
         font-size: 20px;
         color: #bbb;
