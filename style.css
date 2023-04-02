@@ -486,7 +486,7 @@ h3{
         font-size: 1.6rem;
         color: var(--text-color);
         background: var(--white-color);
-        border-radius: 34px;
+        border-radius: 27px;
         margin: .7rem 0;
         box-shadow: 0 .1rem .2rem var(--shadow-color);
 }
@@ -496,7 +496,7 @@ h3{
     font-size: 1.6rem;
     color: var(--text-color);
     background: var(--white-color);
-    border-radius: .9rem 1rem;
+    border-radius: 18px;
     margin: .7rem 0;
     box-shadow: 0 .1rem .2rem var(--shadow-color);
 }
@@ -833,6 +833,38 @@ h3{
 @media (max-width: 450px){
     html{
         font-size: 50%;
+    }
+    .nameicon{
+        position: absolute;
+        top: 6%;
+        left: 15px;
+        transform: translateY(-50%);
+        font-size: 20px;
+        color: #bbb;
+    }
+    .emailicon{
+        position: absolute;
+        top: 18%;
+        left: -159px;
+        transform: translateY(-50%);
+        font-size: 20px;
+        color: #bbb;
+    }
+    .phoneicon{
+        position: absolute;
+        top: 30%;
+        left: 15px;
+        transform: translateY(-50%);
+        font-size: 20px;
+        color: #bbb;
+    }
+    .subjecticon{
+        position: absolute;
+        top: 42%;
+        left: -159px;
+        transform: translateY(-50%);
+        font-size: 20px;
+        color: #bbb;
     }
     
     
