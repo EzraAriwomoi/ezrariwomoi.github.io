@@ -425,7 +425,7 @@ h3{
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	padding: 0 4rem;
+	padding: 1 3rem;
 	text-align: center;
 	font-size: 15px;
 	transition: height 1.6s;
