@@ -588,9 +588,7 @@ h3{
 }
 
 @media (max-width: 768px){
-    #menu-icon{
-        display: block;
-    }
+   
 
     .navbar{
         position: absolute;
