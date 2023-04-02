@@ -866,6 +866,13 @@ h3{
         font-size: 14px;
         color: #bbb;
     }
+	.giphy-embed img{
+        bottom: -1px;
+        right: 70px;
+        width: 25%;
+        height: 62px;
+        margin-right: -9rem;
+        }
     
     
     .home{
