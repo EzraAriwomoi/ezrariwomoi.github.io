@@ -836,10 +836,10 @@ h3{
     }
     .nameicon{
         position: absolute;
-        top: 6%;
+        top: 5.5%;
         left: 15px;
         transform: translateY(-50%);
-        font-size: 16px;
+        font-size: 15px;
         color: #bbb;
     }
     .emailicon{
