@@ -300,6 +300,37 @@ span{
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
 }
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1.2rem;
+    min-width: 500px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.45);
+}
+.styled-table thead tr {
+    background-color: var(--main-color);
+    color: #ffffffea;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid var(--main-color);
+}
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: var(--main-color);
+}
 
 
 /*SERVICES*/
