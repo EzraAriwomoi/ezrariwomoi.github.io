@@ -273,7 +273,7 @@ span{
    width: 50vw;
     height: 800px;
     transform-style: preserve-3d;
-    animation: rotate 30s linear infinite;
+    animation: rotate 10s linear infinite;
     transform-origin: center;
     transform: rotateY(calc(var(--i)*45deg)) translateZ(350px);
 }
