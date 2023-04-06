@@ -270,7 +270,8 @@ span{
 
 /*Image of me*/
 .about img{
-    width: 40vw;
+   width: 50vw;
+    height: 800px;
     transform-style: preserve-3d;
     animation: rotate 30s linear infinite;
     transform-origin: center;
