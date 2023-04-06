@@ -824,6 +824,9 @@ h3{
         font-size: 20px;
         color: #bbb;
     }
+	.about-content p{
+        padding: 45px;
+    }
 }
 
 @media (max-width: 450px){
